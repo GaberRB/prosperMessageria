@@ -16,6 +16,8 @@ O projeto utiliza o Docker Compose para facilitar a montagem do ambiente.
 
 ## Pré-requisitos
 Certifique-se de ter o Docker e o Docker Compose instalados em sua máquina antes de prosseguir.
+Versão do Java 20. 
+Maven
 
 ## Instalação e Configuração
 1. Clone este repositório em sua máquina:
