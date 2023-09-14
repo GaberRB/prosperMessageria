@@ -54,4 +54,14 @@ public class KafkaListeners {
 
     }
 
+//    @KafkaListener(
+//            topics = "topico_java",
+//            groupId = "groupId",
+//            containerFactory="kafkaListenerContainerFactory"
+//    )
+//    public void listerner1(String mensagem){
+//        log.info("Consumo das mensagen:  {}", mensagem);
+//    }
+
+
 }
