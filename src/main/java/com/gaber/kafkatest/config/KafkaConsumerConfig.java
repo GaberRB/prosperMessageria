@@ -14,8 +14,8 @@ import java.util.Map;
 
 @Configuration
 public class KafkaConsumerConfig {
-    @Value("${spring.kafka.bootstrap-servers}")
-    private String boostrapServers;
+//    @Value("${spring.kafka.bootstrap-servers}")
+    private String boostrapServers = "kafka1:9091";
 
     public Map<String, Object> consumerConfig(){
         Map<String, Object> props = new HashMap<>();
