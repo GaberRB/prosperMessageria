@@ -18,7 +18,7 @@ public class KafkaProducer1 {
 
     public void sendMessage(String message) {
 
-        log.info("Mensagem recebida no producer 1 message: ", message);
+        log.info("Mensagem recebida no producer 1 message: {} ", message);
         kafkaTemplate.send("topico_java", message);
         log.info("[KafkaProducer1] mensagem enviada com sucesso");
     }
